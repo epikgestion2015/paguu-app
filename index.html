@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PAGUU · Cero papel. Todo en la nube.</title>
+<meta name="description" content="PAGUU: facturación con IGIC, firma y Verifactu en el navegador. Piloto de demostración con datos ficticios.">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#070b14;color:#e8eefc;line-height:1.5}
+.w{max-width:960px;margin:0 auto;padding:24px}header{display:flex;align-items:center;gap:12px}header img{width:40px;height:40px}
+h1{font-size:clamp(32px,6vw,56px);margin:56px 0 8px}h1 span{color:#4fd1c5}.lead{font-size:20px;color:#b9c4dd;max-width:640px}
+.btn{display:inline-block;margin-top:24px;padding:14px 26px;border-radius:10px;background:#4fd1c5;color:#04121a;font-weight:700;text-decoration:none;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:48px 0}
+.c{background:#0e1628;border:1px solid #1d2a45;border-radius:12px;padding:18px}.c h3{margin:0 0 6px;font-size:17px}.c p{margin:0;color:#b9c4dd;font-size:15px}
+.note{background:#1a1408;border:1px solid #5a4410;color:#f3d999;border-radius:10px;padding:14px;font-size:14px}footer{color:#7f8aa3;font-size:13px;margin:40px 0 10px}
+</style>
+</head>
+<body><div class="w">
+<header><img src="icon.svg" alt=""><b style="font-size:22px">PAGUU</b></header>
+<h1>Cero papel.<br><span>Todo en la nube.</span></h1>
+<p class="lead">Factura electrónica con IGIC, albaranes firmados en pantalla, registro Verifactu y contabilidad, desde el navegador.</p>
+<a class="btn" href="app/">Abrir la app (demo)</a>
+<div class="grid">
+<div class="c"><h3>Facturas con IGIC</h3><p>Emisión con numeración por serie, PDF con membrete y QR.</p></div>
+<div class="c"><h3>Verifactu</h3><p>Cada factura genera su registro con huella encadenada (en esta demo, el envío a la AEAT es simulado).</p></div>
+<div class="c"><h3>Albaranes y firma</h3><p>Firma del cliente en pantalla y paso de albaranes a factura.</p></div>
+<div class="c"><h3>Banco y contabilidad</h3><p>Conciliación de cobros y pagos, IGIC por periodo y partida doble.</p></div>
+</div>
+<div class="note">Piloto de pruebas. Todos los datos (empresa, clientes, NIF/CIF, IBAN y facturas) son ficticios. Los datos que introduzcas se guardan solo en tu navegador. No es todavía un programa oficial de facturación.</div>
+<footer>PAGUU · piloto de demostración</footer>
+</div></body></html>

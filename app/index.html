@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>PAGUU · facturación con IGIC</title>
+<meta name="description" content="PAGUU, piloto local de facturación con IGIC con datos ficticios de demostración. Verifactu se genera en el navegador y el envío a la AEAT es simulado.">
+<meta name="theme-color" content="#070b14">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side" id="side" aria-label="Menú"></aside>
+  <main class="main">
+    <div class="mob"><button type="button" data-act="nav" aria-label="Abrir menú">Menú</button><b>PAGUU</b></div>
+    <div class="banner" role="note">Piloto local · Demo. Datos de ejemplo o piloto. Cada factura emitida aquí genera un registro Verifactu con huella en local; el envío a la AEAT está simulado y no se realiza. No es un programa oficial de facturación.</div>
+    <div id="view" aria-live="polite"></div>
+  </main>
+</div>
+<div id="paper"></div>
+<noscript><p style="padding:20px">PAGUU necesita JavaScript.</p></noscript>
+<script src="js/qrcode.js"></script>
+<script src="js/seed.js"></script>
+<script src="js/logic.js"></script>
+<script src="js/conta.js"></script>
+<script src="js/pdf.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
